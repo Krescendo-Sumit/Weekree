@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79362463827",
+    "firebase_url": "https://weekree-42f4b.firebaseio.com",
+    "project_id": "weekree-42f4b",
+    "storage_bucket": "weekree-42f4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79362463827:android:209212cfea0a91425d0ea6",
+        "android_client_info": {
+          "package_name": "weekree.home.service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79362463827-qtqapetnijf7kii153j2b6tbsv4br4dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGxaVyPWoFnMclVJJJ-yEPx1iwQ7mCfBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79362463827-qtqapetnijf7kii153j2b6tbsv4br4dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
