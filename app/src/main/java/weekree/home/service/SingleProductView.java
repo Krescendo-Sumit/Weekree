@@ -44,9 +44,10 @@ public class SingleProductView extends AppCompatActivity {
         uid = new MyDb(SingleProductView.this).getUserID().trim();;
         btncart=findViewById(R.id.btncart);
         progress = new ProgressDialog(SingleProductView.this);
-        progress.setMessage("Loading .........");
+        progress.setMessage("Loading ...");
         progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progress.setIndeterminate(true);
+        setTitle("Weekree");
         try {
             showcart(uid);
         }catch(Exception e)

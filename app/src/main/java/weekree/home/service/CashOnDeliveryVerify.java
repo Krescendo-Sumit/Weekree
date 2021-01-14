@@ -47,7 +47,7 @@ public class CashOnDeliveryVerify extends AppCompatActivity {
         mobile=b.getString("mobile");
         code=b.getString("code");
 
-        Toast.makeText(CashOnDeliveryVerify.this,"Details are otp :"+code+"\n mobile :"+mobile,Toast.LENGTH_LONG).show();
+      //  Toast.makeText(CashOnDeliveryVerify.this,"Details are otp :"+code+"\n mobile :"+mobile,Toast.LENGTH_LONG).show();
         EditText[] edit = {otp_textbox_one, otp_textbox_two, otp_textbox_three, otp_textbox_four};
         otp_textbox_one.addTextChangedListener(new CashOnDeliveryVerify.GenericTextWatcher1(otp_textbox_one, edit));
         otp_textbox_two.addTextChangedListener(new CashOnDeliveryVerify.GenericTextWatcher1(otp_textbox_two, edit));

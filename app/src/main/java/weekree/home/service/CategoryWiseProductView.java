@@ -60,7 +60,7 @@ public class CategoryWiseProductView extends AppCompatActivity {
         webmenu.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
                 //Make the bar disappear after URL is loaded, and changes string to Loading...
-                setTitle("Loading...");
+                setTitle("Weekree");
                 setProgress(progress * 100); //Make the bar disappear after URL is loaded
                 // Return the app name after finish loading
             }

@@ -36,6 +36,23 @@
         android:weightSum="10">
 
         <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_curve_bg"
+            android:ems="10"
+            android:fontFamily="@font/advent_pro_medium"
+            android:gravity="center"
+            android:hint="Enter Mobile"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:maxLength="10"
+            android:letterSpacing="0.10"
+            android:visibility="visible"
+            />
+
+        <EditText
             android:id="@+id/otp_edit_box1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -46,7 +63,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box2"
@@ -59,7 +77,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box3"
@@ -72,7 +91,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box4"
@@ -84,7 +104,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box5"
@@ -97,7 +118,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box6"
@@ -110,7 +132,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box7"
@@ -123,7 +146,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box8"
@@ -135,7 +159,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box9"
@@ -148,7 +173,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
         <EditText
             android:id="@+id/otp_edit_box10"
@@ -161,7 +187,8 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="1"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:visibility="gone" />
 
 
     </LinearLayout>

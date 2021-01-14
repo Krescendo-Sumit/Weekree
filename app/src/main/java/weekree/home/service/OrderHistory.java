@@ -30,7 +30,7 @@ public class OrderHistory extends AppCompatActivity {
 
         webmenu.setWebChromeClient(new WebChromeClient());
         webmenu.loadUrl(BaseUrl.HOSTNAME + "OrderHistory.php?uid=" + uid);
-        Toast.makeText(OrderHistory.this, "Id id " + uid, Toast.LENGTH_LONG).show();
+     //   Toast.makeText(OrderHistory.this, "Id id " + uid, Toast.LENGTH_LONG).show();
         webmenu.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
                 //Make the bar disappear after URL is loaded, and changes string to Loading...
